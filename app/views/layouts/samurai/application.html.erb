@@ -6,7 +6,6 @@
   <%= csp_meta_tag %>
 
   <%= vite_stylesheet_tag 'application', data: { "turbo-track": "reload" } %>
-  <%= vite_client_tag unless Rails.env.production? %>
   <%= yield(:header) %>
 </head>
 <body>
