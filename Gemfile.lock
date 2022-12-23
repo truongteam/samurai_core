@@ -1,10 +1,9 @@
 PATH
   remote: .
   specs:
-    samurai_core (0.0.2.pre.rc.1)
+    samurai_core (0.0.2.pre.rc.4)
       devise (= 4.8.1)
       rails (>= 7.0.4)
-      vite_rails (~> 3.0)
       vite_ruby (~> 3.2)
 
 GEM
@@ -165,9 +164,6 @@ GEM
     timeout (0.3.1)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    vite_rails (3.0.13)
-      railties (>= 5.1, < 8)
-      vite_ruby (~> 3.0, >= 3.2.2)
     vite_ruby (3.2.14)
       dry-cli (>= 0.7, < 2)
       rack-proxy (~> 0.6, >= 0.6.1)

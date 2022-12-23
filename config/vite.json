@@ -1,7 +1,7 @@
 {
     "all": {
-      "sourceCodeDir": "app/javascript",
-      "publicOutputDir": "administrator-vite",
+      "sourceCodeDir": "frontend",
+      "publicOutputDir": "vite",
       "watchAdditionalPaths": []
     },
     "development": {
@@ -11,4 +11,4 @@
     "test": {
       "autoBuild": true
     }
-  }
+}
