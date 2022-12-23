@@ -1,0 +1,78 @@
+{
+  "entrypoints/dashboard.js": {
+    "file": "assets/dashboard.c04aeda2.js",
+    "src": "entrypoints/dashboard.js",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/dashboard/mount.tsx",
+      "_client.56e8649d.js",
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "entrypoints/application.css": {
+    "file": "assets/application.4ed993c7.js",
+    "src": "entrypoints/application.css",
+    "isEntry": true
+  },
+  "entrypoints/dummy.js": {
+    "file": "assets/dummy.551cc1af.js",
+    "src": "entrypoints/dummy.js",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/dummy/mount.tsx",
+      "_client.56e8649d.js",
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "entrypoints/dashboard/mount.tsx": {
+    "file": "assets/mount.8a5687f3.js",
+    "src": "entrypoints/dashboard/mount.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client.56e8649d.js",
+      "_jsx-runtime.84cb2727.js"
+    ],
+    "dynamicImports": [
+      "entrypoints/dashboard/App.tsx"
+    ]
+  },
+  "entrypoints/dummy/mount.tsx": {
+    "file": "assets/mount.8dbc851e.js",
+    "src": "entrypoints/dummy/mount.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client.56e8649d.js",
+      "_jsx-runtime.84cb2727.js"
+    ],
+    "dynamicImports": [
+      "entrypoints/dummy/App.tsx"
+    ]
+  },
+  "entrypoints/dummy/App.tsx": {
+    "file": "assets/App.f3f4e634.js",
+    "src": "entrypoints/dummy/App.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "entrypoints/dashboard/App.tsx": {
+    "file": "assets/App.5eb45a21.js",
+    "src": "entrypoints/dashboard/App.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "_jsx-runtime.84cb2727.js": {
+    "file": "assets/jsx-runtime.84cb2727.js"
+  },
+  "_client.56e8649d.js": {
+    "file": "assets/client.56e8649d.js",
+    "imports": [
+      "_jsx-runtime.84cb2727.js"
+    ]
+  }
+}

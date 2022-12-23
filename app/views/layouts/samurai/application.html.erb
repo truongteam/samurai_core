@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Core</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= vite_client_tag %>
+  <%= vite_stylesheet_tag 'application', data: { "turbo-track": "reload" } %>
+  <%= vite_client_tag %>
+  <%= yield(:header) %>
+</head>
+<body>
+<%- if current_user %>
+<ul>
+<li>
+<%= link_to "SamuraiCRM", samurai.root_path %>
+</li>
+<li>
+<%= link_to "My account", samurai.edit_user_registration_path %>
+</li>
+<li>
+<%= link_to "Dummy", samurai.dummy_path %>
+</li>
+<li>
+<%= link_to "Logout", samurai.destroy_user_session_path, data: { "turbo-method": :delete } %>
+</li>
+</ul>
+<% end %>
+<%= yield %>
+
+</body>
+</html>
