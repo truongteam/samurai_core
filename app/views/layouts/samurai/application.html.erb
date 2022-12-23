@@ -4,9 +4,8 @@
   <title>Core</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
-
-  <%= vite_stylesheet_tag 'application', data: { "turbo-track": "reload" } %>
-  <%= yield(:header) %>
+  <%= vite_client_tag %>
+  <%= vite_react_refresh_tag %>
 </head>
 <body>
 <%- if current_user %>
@@ -26,6 +25,6 @@
 </ul>
 <% end %>
 <%= yield %>
-
+<%= yield(:header) %>
 </body>
 </html>

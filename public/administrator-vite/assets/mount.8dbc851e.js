@@ -1,1 +1,0 @@
-import{_ as o,c as r}from"./client.56e8649d.js";import{R as e,j as t}from"./jsx-runtime.84cb2727.js";const i=e.lazy(()=>o(()=>import("./App.f3f4e634.js"),["assets/App.f3f4e634.js","assets/jsx-runtime.84cb2727.js"]));r.createRoot(document.getElementById("root")).render(t.jsx(e.StrictMode,{children:t.jsx(i,{})}));

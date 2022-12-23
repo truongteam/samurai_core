@@ -1,0 +1,1 @@
+System.register(["./client.ea487cdd-legacy.js","./jsx-runtime.d0387ac5-legacy.js"],(function(e,t){"use strict";var r,c,n,o;return{setters:[e=>{r=e._,c=e.c},e=>{n=e.R,o=e.j}],execute:function(){const e=n.lazy((()=>r((()=>t.import("./App.00dc7f66-legacy.js")),void 0)));c.createRoot(document.getElementById("root")).render(o(n.StrictMode,{children:o(e,{})}))}}}));
