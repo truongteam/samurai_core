@@ -14,29 +14,11 @@
       "entrypoints/dashboard/App.tsx"
     ]
   },
-  "_react.631694b7.js": {
-    "file": "assets/react.631694b7.js",
-    "imports": [
-      "_scheduler.528b44eb.js"
-    ]
-  },
-  "entrypoints/dashboard/mount.jsx": {
-    "file": "assets/mount.7126f018.js",
-    "src": "entrypoints/dashboard/mount.jsx",
+  "entrypoints/dummy/App.tsx": {
+    "file": "assets/App.5c65d5fa.js",
+    "src": "entrypoints/dummy/App.tsx",
     "isEntry": true,
     "imports": [
-      "_react.631694b7.js",
-      "entrypoints/dashboard/App.tsx",
-      "_scheduler.528b44eb.js"
-    ]
-  },
-  "entrypoints/dummy/mount.jsx": {
-    "file": "assets/mount.f87d5451.js",
-    "src": "entrypoints/dummy/mount.jsx",
-    "isEntry": true,
-    "imports": [
-      "_react.631694b7.js",
-      "entrypoints/dummy/App.tsx",
       "_scheduler.528b44eb.js"
     ]
   },
@@ -51,6 +33,26 @@
       "entrypoints/dummy/App.tsx"
     ]
   },
+  "entrypoints/dummy/mount.jsx": {
+    "file": "assets/mount.f87d5451.js",
+    "src": "entrypoints/dummy/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react.631694b7.js",
+      "entrypoints/dummy/App.tsx",
+      "_scheduler.528b44eb.js"
+    ]
+  },
+  "entrypoints/dashboard/mount.jsx": {
+    "file": "assets/mount.7126f018.js",
+    "src": "entrypoints/dashboard/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react.631694b7.js",
+      "entrypoints/dashboard/App.tsx",
+      "_scheduler.528b44eb.js"
+    ]
+  },
   "entrypoints/dashboard/App.tsx": {
     "file": "assets/App.cba1a0e1.js",
     "src": "entrypoints/dashboard/App.tsx",
@@ -59,10 +61,8 @@
       "_scheduler.528b44eb.js"
     ]
   },
-  "entrypoints/dummy/App.tsx": {
-    "file": "assets/App.5c65d5fa.js",
-    "src": "entrypoints/dummy/App.tsx",
-    "isEntry": true,
+  "_react.631694b7.js": {
+    "file": "assets/react.631694b7.js",
     "imports": [
       "_scheduler.528b44eb.js"
     ]
@@ -71,7 +71,7 @@
     "file": "assets/scheduler.528b44eb.js"
   },
   "entrypoints/layout.ts": {
-    "file": "assets/layout.b15a8432.js",
+    "file": "assets/layout.89307420.js",
     "src": "entrypoints/layout.ts",
     "isEntry": true,
     "imports": [

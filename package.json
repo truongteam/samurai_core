@@ -16,11 +16,14 @@
     "vite-plugin-windicss": "^1.8.10"
   },
   "dependencies": {
+    "@hotwired/turbo-rails": "^7.2.4",
     "@oneform/react": "^3.1.0",
     "@patternfly/react-core": "^4.267.6",
     "@rails/activestorage": "^7.0.4",
+    "@rails/ujs": "^7.0.4",
     "flowbite": "^1.5.5",
     "flowbite-react": "^0.3.7",
+    "local-time": "^2.1.0",
     "million": "^1.12.6-beta.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
