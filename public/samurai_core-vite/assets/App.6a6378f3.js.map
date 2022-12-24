@@ -1,1 +1,0 @@
-{"version":3,"file":"App.6a6378f3.js","sources":["../../../app/frontend/entrypoints/dummy/App.tsx"],"sourcesContent":["import React from 'react'\nconst App = () => {\n  return <div>Hello world 234</div>\n}\n\nexport default App"],"names":["App","jsx"],"mappings":"8CACA,MAAMA,EAAM,IACHC,EAAC,OAAI,SAAe,iBAAA,CAAA"}

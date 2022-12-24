@@ -22,9 +22,6 @@
       "baseUrl": ".",
       "rootDir": "."
     },
-    "paths": {
-      "@assets/*": ["node_modules/@patternfly/react-core/dist/styles/assets/*"]
-    },
     "include": ["src"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json" }]

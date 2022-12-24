@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='mb-8 font-bold text-3xl'>Dashboard</h1>
+      <h1 className='mb-8 font-bold text-3xl'>Dashboard e32</h1>
       <div className="card">
         <button className='btn-indigo' onClick={() => setCount((count) => count + 1)}>
           Count is {count}

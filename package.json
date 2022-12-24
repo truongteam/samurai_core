@@ -18,6 +18,7 @@
   "dependencies": {
     "@oneform/react": "^3.1.0",
     "@patternfly/react-core": "^4.267.6",
+    "million": "^1.12.6-beta.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "webpack": "^5.75.0",

@@ -3,70 +3,69 @@
     "file": "assets/layout.8e8b6942.css",
     "src": "entrypoints/layout.css"
   },
-  "entrypoints/dashboard/App.tsx": {
-    "file": "assets/App.3be524ec.js",
-    "src": "entrypoints/dashboard/App.tsx",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_jsx-runtime.a9b62637.js"
-    ]
-  },
-  "entrypoints/dashboard/mount.tsx": {
-    "file": "assets/mount.343b21c6.js",
-    "src": "entrypoints/dashboard/mount.tsx",
-    "isEntry": true,
-    "imports": [
-      "_client.d1654e13.js",
-      "_jsx-runtime.a9b62637.js"
-    ],
-    "dynamicImports": [
-      "entrypoints/dashboard/App.tsx"
-    ]
-  },
   "entrypoints/dummy/App.tsx": {
-    "file": "assets/App.6a6378f3.js",
+    "file": "assets/App.47d1f3cf.js",
     "src": "entrypoints/dummy/App.tsx",
     "isEntry": true,
-    "isDynamicEntry": true,
     "imports": [
-      "_jsx-runtime.a9b62637.js"
+      "_scheduler.cb961abc.js"
+    ]
+  },
+  "entrypoints/dashboard/mount.jsx": {
+    "file": "assets/mount.be178f72.js",
+    "src": "entrypoints/dashboard/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react.435e6ff6.js",
+      "entrypoints/dashboard/App.tsx",
+      "_scheduler.cb961abc.js"
+    ]
+  },
+  "entrypoints/dummy/mount.jsx": {
+    "file": "assets/mount.3faef631.js",
+    "src": "entrypoints/dummy/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react.435e6ff6.js",
+      "entrypoints/dummy/App.tsx",
+      "_scheduler.cb961abc.js"
     ]
   },
   "entrypoints/dashboard.ts": {
-    "file": "assets/dashboard.35639244.js",
+    "file": "assets/dashboard.2298a443.js",
     "src": "entrypoints/dashboard.ts",
     "isEntry": true,
     "imports": [
-      "entrypoints/dashboard/mount.tsx",
-      "_client.d1654e13.js",
-      "_jsx-runtime.a9b62637.js"
+      "entrypoints/dashboard/mount.jsx",
+      "_react.435e6ff6.js",
+      "_scheduler.cb961abc.js",
+      "entrypoints/dashboard/App.tsx"
     ]
   },
   "entrypoints/dummy.ts": {
-    "file": "assets/dummy.f13051d3.js",
+    "file": "assets/dummy.18b452b9.js",
     "src": "entrypoints/dummy.ts",
     "isEntry": true,
     "imports": [
-      "entrypoints/dummy/mount.tsx",
-      "_client.d1654e13.js",
-      "_jsx-runtime.a9b62637.js"
-    ]
-  },
-  "entrypoints/dummy/mount.tsx": {
-    "file": "assets/mount.a74dfea9.js",
-    "src": "entrypoints/dummy/mount.tsx",
-    "isEntry": true,
-    "imports": [
-      "_client.d1654e13.js",
-      "_jsx-runtime.a9b62637.js"
-    ],
-    "dynamicImports": [
+      "entrypoints/dummy/mount.jsx",
+      "_react.435e6ff6.js",
+      "_scheduler.cb961abc.js",
       "entrypoints/dummy/App.tsx"
     ]
   },
-  "_jsx-runtime.a9b62637.js": {
-    "file": "assets/jsx-runtime.a9b62637.js"
+  "_react.435e6ff6.js": {
+    "file": "assets/react.435e6ff6.js",
+    "imports": [
+      "_scheduler.cb961abc.js"
+    ]
+  },
+  "entrypoints/dashboard/App.tsx": {
+    "file": "assets/App.34682671.js",
+    "src": "entrypoints/dashboard/App.tsx",
+    "isEntry": true,
+    "imports": [
+      "_scheduler.cb961abc.js"
+    ]
   },
   "entrypoints/layout.ts": {
     "file": "assets/layout.4ed993c7.js",
@@ -76,10 +75,7 @@
       "assets/layout.8e8b6942.css"
     ]
   },
-  "_client.d1654e13.js": {
-    "file": "assets/client.d1654e13.js",
-    "imports": [
-      "_jsx-runtime.a9b62637.js"
-    ]
+  "_scheduler.cb961abc.js": {
+    "file": "assets/scheduler.cb961abc.js"
   }
 }
