@@ -3,6 +3,23 @@
     "file": "assets/layout.6c482293.css",
     "src": "entrypoints/layout.css"
   },
+  "entrypoints/dashboard.ts": {
+    "file": "assets/dashboard.2e2f72a8.js",
+    "src": "entrypoints/dashboard.ts",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/dashboard/mount.jsx",
+      "_react.631694b7.js",
+      "_scheduler.528b44eb.js",
+      "entrypoints/dashboard/App.tsx"
+    ]
+  },
+  "_react.631694b7.js": {
+    "file": "assets/react.631694b7.js",
+    "imports": [
+      "_scheduler.528b44eb.js"
+    ]
+  },
   "entrypoints/dashboard/mount.jsx": {
     "file": "assets/mount.7126f018.js",
     "src": "entrypoints/dashboard/mount.jsx",
@@ -10,6 +27,16 @@
     "imports": [
       "_react.631694b7.js",
       "entrypoints/dashboard/App.tsx",
+      "_scheduler.528b44eb.js"
+    ]
+  },
+  "entrypoints/dummy/mount.jsx": {
+    "file": "assets/mount.f87d5451.js",
+    "src": "entrypoints/dummy/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react.631694b7.js",
+      "entrypoints/dummy/App.tsx",
       "_scheduler.528b44eb.js"
     ]
   },
@@ -24,17 +51,6 @@
       "entrypoints/dummy/App.tsx"
     ]
   },
-  "entrypoints/dashboard.ts": {
-    "file": "assets/dashboard.2e2f72a8.js",
-    "src": "entrypoints/dashboard.ts",
-    "isEntry": true,
-    "imports": [
-      "entrypoints/dashboard/mount.jsx",
-      "_react.631694b7.js",
-      "_scheduler.528b44eb.js",
-      "entrypoints/dashboard/App.tsx"
-    ]
-  },
   "entrypoints/dashboard/App.tsx": {
     "file": "assets/App.cba1a0e1.js",
     "src": "entrypoints/dashboard/App.tsx",
@@ -43,26 +59,10 @@
       "_scheduler.528b44eb.js"
     ]
   },
-  "entrypoints/dummy/mount.jsx": {
-    "file": "assets/mount.f87d5451.js",
-    "src": "entrypoints/dummy/mount.jsx",
-    "isEntry": true,
-    "imports": [
-      "_react.631694b7.js",
-      "entrypoints/dummy/App.tsx",
-      "_scheduler.528b44eb.js"
-    ]
-  },
   "entrypoints/dummy/App.tsx": {
     "file": "assets/App.5c65d5fa.js",
     "src": "entrypoints/dummy/App.tsx",
     "isEntry": true,
-    "imports": [
-      "_scheduler.528b44eb.js"
-    ]
-  },
-  "_react.631694b7.js": {
-    "file": "assets/react.631694b7.js",
     "imports": [
       "_scheduler.528b44eb.js"
     ]
