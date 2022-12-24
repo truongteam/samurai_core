@@ -1,5 +1,5 @@
 module Samurai
-    class DummyController < ApplicationController
+    class DummyController < AuthenticatedController
         def index
         end
     end

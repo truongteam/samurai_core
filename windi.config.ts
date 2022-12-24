@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite-plugin-windicss'
 import colors from 'windicss/colors'
-
 export default defineConfig({
   extract: {
     include: [

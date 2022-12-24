@@ -1,4 +1,11 @@
 <% content_for :header do %>
     <%= vite_typescript_tag 'dashboard' %>
 <% end %>
-<div id="root"></div>
+<div class="grid grid-flow-col gap-3">
+  <div class="col-span-1">
+    <%= render 'samurai/dashboard/sidebar' %>
+  </div>
+  <div class="col-span-4">
+    <div id="root"></div>
+  </div>
+</div>

@@ -18,10 +18,16 @@
   "dependencies": {
     "@oneform/react": "^3.1.0",
     "@patternfly/react-core": "^4.267.6",
+    "flowbite": "^1.5.5",
+    "flowbite-react": "^0.3.7",
     "million": "^1.12.6-beta.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "dev": "bin/vite dev --clobber",
+    "build": "bin/vite build --clobber"
   }
 }

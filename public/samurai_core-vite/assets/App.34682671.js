@@ -1,2 +1,0 @@
-import{c as s,h as c,r as o,v as e}from"./scheduler.cb961abc.js";s(c);function r(){const[a,t]=o(10);return e("div",{className:"App",children:[e("h1",{className:"mb-8 font-bold text-3xl",children:"Dashboard e32"}),e("div",{className:"card",children:[e("button",{className:"btn-indigo",onClick:()=>t(n=>n+1),children:["Count is ",a]}),e("p",{children:"Tuyendv"})]}),e("p",{className:"read-the-docs",children:"Click on the Vite and React logos to learn more"})]})}export{r as A};
-//# sourceMappingURL=App.34682671.js.map
