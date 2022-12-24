@@ -5,7 +5,7 @@
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
   <%= vite_client_tag %>
-  <%= typescript_tag('layout').html_escape %>
+  <%= raw typescript_tag('layout') %>
 </head>
 <body class="font-sans leading-none text-gray-800 antialiased">
 <div class="flex flex-col h-screen justify-between">
