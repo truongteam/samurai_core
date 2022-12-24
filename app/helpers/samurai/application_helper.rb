@@ -1,4 +1,3 @@
-cdn = "https://samuraierp.netlify.com"
 module Samurai
   module ApplicationHelper
     def active(path)
@@ -11,7 +10,7 @@ module Samurai
 
     def typescript_tag(name)
       if Rails.env.production?
-        cdn + vite_typescript_tag(name)
+        "https://samuraierp.netlify.com" + vite_typescript_tag(name)
       else
         vite_typescript_tag(name)
       end
