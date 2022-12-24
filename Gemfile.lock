@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    samurai_core (0.0.2.pre.rc.19)
+    samurai_core (0.0.2.pre.rc.20)
       devise (~> 4.8.1)
       rails (>= 7.0.4)
       vite_rails (~> 3.0)

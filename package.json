@@ -29,6 +29,6 @@
   },
   "scripts": {
     "dev": "bin/vite dev --clobber",
-    "build": "bin/vite build --clobber"
+    "build": "VITE_RUBY_ASSET_HOST=https://samuraicore.netlify.app bin/vite build --clobber"
   }
 }

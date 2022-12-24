@@ -10,9 +10,14 @@ module Samurai
         @vite_ruby ||= ::ViteRuby.new(root: root)
       end
 
+      cdn =  "https://samuraierp.netlify.com"
+      urls = ["/#{ vite_ruby.config.public_output_dir }"]
+      if Rails.env.production?
+        urls = ["#{cdn}/#{ vite_ruby.config.public_output_dir }"]
+      end
       config.app_middleware.use(Rack::Static,
-      urls: ["/#{ vite_ruby.config.public_output_dir }"],
-      root: root.join(vite_ruby.config.public_dir))
+        urls: urls,
+        root: root.join(vite_ruby.config.public_dir))
 
       initializer 'vite_rails_engine.proxy' do |app|
         if vite_ruby.run_proxy?
@@ -25,7 +30,7 @@ module Samurai
           vite_ruby.logger = Rails.logger
         end
       end
-      
+
       initializer :append_migrations do |app|
         unless app.root.to_s.match(root.to_s)
           config.paths["db/migrate"].expanded.each do |p|
