@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(10)
 
   return (
     <div className="App">
-      <h1>Dashboard</h1>
+      <h1 className='mb-8 font-bold text-3xl'>Dashboard</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button className='btn-indigo' onClick={() => setCount((count) => count + 1)}>
           Count is {count}
         </button>
         <p>
-          Tuyendv 234123
+          Tuyendv
         </p>
       </div>
       <p className="read-the-docs">

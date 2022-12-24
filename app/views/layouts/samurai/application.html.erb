@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html class="h-full bg-gray-200" lang="en">
 <head>
   <title>Core</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
   <%= vite_client_tag %>
   <%= vite_react_refresh_tag %>
+  <%= vite_typescript_tag 'layout' %>
 </head>
-<body>
+<body class="font-sans leading-none text-gray-800 antialiased">
 <%- if current_user %>
 <ul>
 <li>
@@ -24,7 +25,10 @@
 </li>
 </ul>
 <% end %>
+<div class="container mx-auto">
 <%= yield %>
+</div>
+
 <%= yield(:header) %>
 </body>
 </html>
