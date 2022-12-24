@@ -1,5 +1,10 @@
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "*"
+  for = "samurai_core-vite/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://modular-rails-template-production.up.railway.app"
+
+[[headers]]
+  for = "samurai_core-vite/assets/*"
   [headers.values]
     Access-Control-Allow-Origin = "https://modular-rails-template-production.up.railway.app"
