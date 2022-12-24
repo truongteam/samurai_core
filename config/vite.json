@@ -1,14 +1,19 @@
 {
-    "all": {
-      "sourceCodeDir": "frontend",
-      "publicOutputDir": "spa",
-      "watchAdditionalPaths": []
-    },
-    "development": {
-      "autoBuild": true,
-      "port": 3037
-    },
-    "test": {
-      "autoBuild": true
-    }
+  "all": {
+    "devServerConnectTimeout": 0.01,
+    "sourceCodeDir": "frontend",
+    "watchAdditionalPaths": []
+  },
+  "development": {
+    "autoBuild": true,
+    "publicOutputDir": "vite-dev",
+    "port": 3036
+  },
+  "test": {
+    "autoBuild": true,
+    "publicOutputDir": "vite-test"
+  },
+  "production": {
+    "ssrBuildEnabled": false
+  }
 }
