@@ -1,19 +1,14 @@
 {
   "all": {
-    "devServerConnectTimeout": 0.01,
-    "sourceCodeDir": "frontend",
+    "sourceCodeDir": "app/frontend",
+    "publicOutputDir": "samurai_core-vite",
     "watchAdditionalPaths": []
   },
   "development": {
     "autoBuild": true,
-    "publicOutputDir": "vite-dev",
     "port": 3036
   },
   "test": {
-    "autoBuild": true,
-    "publicOutputDir": "vite-test"
-  },
-  "production": {
-    "ssrBuildEnabled": false
+    "autoBuild": true
   }
 }
