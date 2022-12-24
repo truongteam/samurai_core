@@ -3,13 +3,48 @@
     "file": "assets/layout.6c482293.css",
     "src": "entrypoints/layout.css"
   },
+  "entrypoints/dummy/App.tsx": {
+    "file": "assets/App.47d1f3cf.js",
+    "src": "entrypoints/dummy/App.tsx",
+    "isEntry": true,
+    "imports": [
+      "_scheduler.cb961abc.js"
+    ]
+  },
   "entrypoints/dashboard/mount.jsx": {
-    "file": "assets/mount.8a088bb2.js",
+    "file": "assets/mount.ad108df0.js",
     "src": "entrypoints/dashboard/mount.jsx",
     "isEntry": true,
     "imports": [
       "_react.435e6ff6.js",
       "entrypoints/dashboard/App.tsx",
+      "_scheduler.cb961abc.js"
+    ]
+  },
+  "_react.435e6ff6.js": {
+    "file": "assets/react.435e6ff6.js",
+    "imports": [
+      "_scheduler.cb961abc.js"
+    ]
+  },
+  "entrypoints/dashboard.ts": {
+    "file": "assets/dashboard.8f72d65a.js",
+    "src": "entrypoints/dashboard.ts",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/dashboard/mount.jsx",
+      "_react.435e6ff6.js",
+      "_scheduler.cb961abc.js",
+      "entrypoints/dashboard/App.tsx"
+    ]
+  },
+  "entrypoints/dummy/mount.jsx": {
+    "file": "assets/mount.3faef631.js",
+    "src": "entrypoints/dummy/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react.435e6ff6.js",
+      "entrypoints/dummy/App.tsx",
       "_scheduler.cb961abc.js"
     ]
   },
@@ -24,43 +59,8 @@
       "entrypoints/dummy/App.tsx"
     ]
   },
-  "entrypoints/dummy/App.tsx": {
-    "file": "assets/App.47d1f3cf.js",
-    "src": "entrypoints/dummy/App.tsx",
-    "isEntry": true,
-    "imports": [
-      "_scheduler.cb961abc.js"
-    ]
-  },
-  "entrypoints/dummy/mount.jsx": {
-    "file": "assets/mount.3faef631.js",
-    "src": "entrypoints/dummy/mount.jsx",
-    "isEntry": true,
-    "imports": [
-      "_react.435e6ff6.js",
-      "entrypoints/dummy/App.tsx",
-      "_scheduler.cb961abc.js"
-    ]
-  },
-  "entrypoints/dashboard.ts": {
-    "file": "assets/dashboard.09b4f6b2.js",
-    "src": "entrypoints/dashboard.ts",
-    "isEntry": true,
-    "imports": [
-      "entrypoints/dashboard/mount.jsx",
-      "_react.435e6ff6.js",
-      "_scheduler.cb961abc.js",
-      "entrypoints/dashboard/App.tsx"
-    ]
-  },
-  "_react.435e6ff6.js": {
-    "file": "assets/react.435e6ff6.js",
-    "imports": [
-      "_scheduler.cb961abc.js"
-    ]
-  },
   "entrypoints/dashboard/App.tsx": {
-    "file": "assets/App.b4be174c.js",
+    "file": "assets/App.b9638e03.js",
     "src": "entrypoints/dashboard/App.tsx",
     "isEntry": true,
     "imports": [
