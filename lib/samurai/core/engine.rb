@@ -10,11 +10,7 @@ module Samurai
         @vite_ruby ||= ::ViteRuby.new(root: root)
       end
 
-      cdn =  "https://samuraierp.netlify.com"
       urls = ["/#{ vite_ruby.config.public_output_dir }"]
-      if Rails.env.production?
-        urls = ["#{cdn}/#{ vite_ruby.config.public_output_dir }"]
-      end
       config.app_middleware.use(Rack::Static,
         urls: urls,
         root: root.join(vite_ruby.config.public_dir))
