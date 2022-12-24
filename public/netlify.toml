@@ -1,5 +1,9 @@
+[build]
+  command = "echo 'running'"
+  publish = "."
+
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "samurai_core-vite/*"
-    [headers.values]
-      Access-Control-Allow-Origin = "*"
+  for = "*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
