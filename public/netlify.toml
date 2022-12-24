@@ -1,5 +1,6 @@
 [build]
   command = "echo 'running'"
+  publish = "/"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
