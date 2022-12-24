@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.0.4"
   spec.add_development_dependency "sqlite3", ">= 1.4"
-  spec.add_dependency "devise", "= 4.8.1"
+  spec.add_dependency "devise", "~> 4.8.1"
   spec.add_dependency "vite_ruby", "~> 3.2"
   spec.add_dependency "vite_rails", "~> 3.0"
 end

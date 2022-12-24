@@ -1,15 +1,14 @@
 {
   "entrypoints/layout.css": {
-    "file": "assets/layout.a9bd1180.css",
+    "file": "assets/layout.8e8b6942.css",
     "src": "entrypoints/layout.css"
   },
-  "entrypoints/dashboard.ts": {
-    "file": "assets/dashboard.35639244.js",
-    "src": "entrypoints/dashboard.ts",
+  "entrypoints/dashboard/App.tsx": {
+    "file": "assets/App.3be524ec.js",
+    "src": "entrypoints/dashboard/App.tsx",
     "isEntry": true,
+    "isDynamicEntry": true,
     "imports": [
-      "entrypoints/dashboard/mount.tsx",
-      "_client.d1654e13.js",
       "_jsx-runtime.a9b62637.js"
     ]
   },
@@ -34,16 +33,14 @@
       "_jsx-runtime.a9b62637.js"
     ]
   },
-  "entrypoints/dummy/mount.tsx": {
-    "file": "assets/mount.a74dfea9.js",
-    "src": "entrypoints/dummy/mount.tsx",
+  "entrypoints/dashboard.ts": {
+    "file": "assets/dashboard.35639244.js",
+    "src": "entrypoints/dashboard.ts",
     "isEntry": true,
     "imports": [
+      "entrypoints/dashboard/mount.tsx",
       "_client.d1654e13.js",
       "_jsx-runtime.a9b62637.js"
-    ],
-    "dynamicImports": [
-      "entrypoints/dummy/App.tsx"
     ]
   },
   "entrypoints/dummy.ts": {
@@ -56,13 +53,16 @@
       "_jsx-runtime.a9b62637.js"
     ]
   },
-  "entrypoints/dashboard/App.tsx": {
-    "file": "assets/App.3be524ec.js",
-    "src": "entrypoints/dashboard/App.tsx",
+  "entrypoints/dummy/mount.tsx": {
+    "file": "assets/mount.a74dfea9.js",
+    "src": "entrypoints/dummy/mount.tsx",
     "isEntry": true,
-    "isDynamicEntry": true,
     "imports": [
+      "_client.d1654e13.js",
       "_jsx-runtime.a9b62637.js"
+    ],
+    "dynamicImports": [
+      "entrypoints/dummy/App.tsx"
     ]
   },
   "_jsx-runtime.a9b62637.js": {
@@ -73,7 +73,7 @@
     "src": "entrypoints/layout.ts",
     "isEntry": true,
     "css": [
-      "assets/layout.a9bd1180.css"
+      "assets/layout.8e8b6942.css"
     ]
   },
   "_client.d1654e13.js": {
