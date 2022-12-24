@@ -1,9 +1,5 @@
-[build]
-  command = "echo 'running'"
-  publish = "/"
-
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
   for = "*"
   [headers.values]
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://modular-rails-template-production.up.railway.app"
