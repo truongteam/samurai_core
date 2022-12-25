@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 
 function App(props) {
   const { global, consumer } = props
+  const [realtimeData, setData] = React.useState({})
   
   React.useEffect(() => {
     consumer.subscriptions.create({ channel: "Samurai::ExampleChannel", room: "Best Room" }, {
       received(data) {
         console.log('data', data)
+        setData(data)
       }
     })
   }, [])
@@ -14,6 +16,7 @@ function App(props) {
   return (
     <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
       {global.environment}
+      Realtime: {JSON.stringify(realtimeData, null, 2)}
     <div className="flex justify-between items-center py-4 bg-white dark:bg-gray-800">
       <div>
         <button

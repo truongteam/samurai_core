@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    samurai_core (0.0.2.pre.rc.37)
+    samurai_core (0.0.2.pre.rc.38)
       devise (~> 4.8.1)
       gon (~> 6.2.0)
       good_job (~> 3.7)
