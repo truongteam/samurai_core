@@ -1,8 +1,16 @@
 import React, { useState } from 'react'
 
 function App(props) {
-  const { global } = props
+  const { global, consumer } = props
   
+  React.useEffect(() => {
+    consumer.subscriptions.create({ channel: "Samurai::ExampleChannel", room: "Best Room" }, {
+      received(data) {
+        console.log('data', data)
+      }
+    })
+  }, [])
+
   return (
     <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
       {global.environment}
