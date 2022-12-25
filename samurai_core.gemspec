@@ -28,4 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "vite_rails", "~> 3.0"
   spec.add_dependency "good_job", "~> 3.7"
   spec.add_dependency "karafka", "~> 2.0"
+  spec.add_dependency "gon", "~> 6.2.0"
 end

@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    samurai_core (0.0.2.pre.rc.33)
+    samurai_core (0.0.2.pre.rc.34)
       devise (~> 4.8.1)
+      gon (~> 6.2.0)
       good_job (~> 3.7)
       karafka (~> 2.0)
       rails (>= 7.0.4)
@@ -98,6 +99,10 @@ GEM
       raabro (~> 1.4)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    gon (6.2.1)
+      actionpack (>= 3.0)
+      multi_json
+      request_store (>= 1.0)
     good_job (3.7.2)
       activejob (>= 6.0.0)
       activerecord (>= 6.0.0)
@@ -129,6 +134,7 @@ GEM
     mini_mime (1.1.2)
     mini_portile2 (2.8.1)
     minitest (5.16.3)
+    multi_json (1.15.0)
     net-imap (0.3.4)
       date
       net-protocol
@@ -180,6 +186,8 @@ GEM
       ffi (~> 1.15)
       mini_portile2 (~> 2.6)
       rake (> 12)
+    request_store (1.5.1)
+      rack (>= 1.4)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
