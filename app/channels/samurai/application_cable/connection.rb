@@ -6,12 +6,13 @@ module Samurai
 
       def connect
         self.current_user = find_verified_user
+        logger.add_tags "ActionCable", current_user.studentid
       end
 
-      private
+      protected
 
-      def find_verified_user
-        if verified_user = User.find_by(id: cookies.encrypted[:user_id])
+      def find_verified_user # this checks whether a user is authenticated with devise
+        if verified_user = env["warden"].user
           verified_user
         else
           reject_unauthorized_connection
