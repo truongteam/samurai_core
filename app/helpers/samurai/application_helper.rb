@@ -10,7 +10,7 @@ module Samurai
 
     def typescript_tag(name)
       if Rails.env.production?
-        vite_typescript_tag(name).gsub "samuraierp-main.netlify.app", "samuraicore.netlify.app"
+        vite_typescript_tag(name).gsub "samuraierp-main", "samuraicore"
       else
         vite_typescript_tag(name)
       end

@@ -150,7 +150,7 @@ function App() {
           >
             <img
               className="w-10 h-10 rounded-full"
-              src="/docs/images/people/profile-picture-1.jpg"
+              src="/images/profile-picture-1.jpg"
               alt="Jese image"
             />
             <div className="pl-3">
