@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    samurai_core (0.0.2.pre.rc.32)
+    samurai_core (0.0.2.pre.rc.33)
       devise (~> 4.8.1)
       good_job (~> 3.7)
       karafka (~> 2.0)

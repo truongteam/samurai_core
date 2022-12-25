@@ -23,6 +23,7 @@
     "@patternfly/react-core": "^4.267.6",
     "@rails/activestorage": "^7.0.4",
     "@rails/ujs": "^7.0.4",
+    "actioncable": "^5.2.8-1",
     "flowbite": "^1.5.5",
     "flowbite-react": "^0.3.7",
     "local-time": "^2.1.0",
