@@ -7,8 +7,7 @@ if (environment === 'production') {
 } else {
     CableApp.cable = actionCable.createConsumer('/cable');
 }
-
+window.CableApp = CableApp;
 export default {
-    CableApp,
     environment
 };

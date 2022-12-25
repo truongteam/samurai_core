@@ -5,7 +5,7 @@ function App(props) {
   
   return (
     <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
-      {JSON.stringify(global, null, 2)}
+      {global.environment}
     <div className="flex justify-between items-center py-4 bg-white dark:bg-gray-800">
       <div>
         <button
