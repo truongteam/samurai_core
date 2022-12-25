@@ -1,3 +1,5 @@
+require "good_job/engine"
+
 module Samurai
   class ApplicationJob < ActiveJob::Base
     include GoodJob::ActiveJobExtensions::Concurrency

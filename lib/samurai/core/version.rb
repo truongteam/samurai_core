@@ -1,5 +1,5 @@
 module Samurai
   module Core
-    VERSION = "0.0.2-rc.31"
+    VERSION = "0.0.2-rc.32"
   end
 end
