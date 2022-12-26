@@ -29,4 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "good_job", "~> 3.7"
   spec.add_dependency "karafka", "~> 2.0"
   spec.add_dependency "gon", "~> 6.2.0"
+  spec.add_dependency "invoice_printer", "~> 2.2.0"
 end

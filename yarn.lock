@@ -632,6 +632,13 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
+"@types/classnames@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.3.1.tgz#3c2467aa0f1a93f1f021e3b9bcf938bd5dfdc0dd"
+  integrity sha512-zeOWb0JGBoVmlQoznvqXbE0tEC/HONsnoUNH19Hc96NFsTAwTXbTqb8FMYkru1F/iqp7a18Ws3nWJvtA1sHD1A==
+  dependencies:
+    classnames "*"
+
 "@types/eslint-scope@^3.7.3":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.4.tgz#37fc1223f0786c39627068a12e94d6e6fc61de16"
@@ -720,6 +727,20 @@
   integrity sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==
   dependencies:
     "@types/node" "*"
+
+"@unionpdf/models@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@unionpdf/models/-/models-0.10.0.tgz#d9e455339f521dd49adc0cc8556ee3ad0b985817"
+  integrity sha512-ZsctKS8CduN+kEih7YsHKHdj3QQ6ETEIUxCarXE9h5UTAGMyyHhy8HA0AtB/vluIHL1GTwEZ0gqb69JcQ8AEwQ==
+
+"@unionpdf/react@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@unionpdf/react/-/react-0.10.0.tgz#8b4ee851973ff5702a45c944f0ecb2b8ed4613ed"
+  integrity sha512-ATkCepjd4jyKq7/R0TifBz5HB4LGVqVcoYrLl9KEYGpUC8ofvUZYnNqEXeOK+nP5//R12O/ywFl1r03t+lji1g==
+  dependencies:
+    "@types/classnames" "^2.3.1"
+    "@unionpdf/models" "^0.10.0"
+    classnames "^2.3.2"
 
 "@vitejs/plugin-legacy@^3.0.1":
   version "3.0.1"
@@ -1277,7 +1298,7 @@ ci-info@^3.2.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.7.0.tgz#6d01b3696c59915b6ce057e4aa4adfc2fa25f5ef"
   integrity sha512-2CpRNYmImPx+RXKLq6jko/L07phmS9I02TyqkcNU20GCF/GgaWvc58hPtjxDX8lPpkdwc9sNh72V9k00S7ezog==
 
-classnames@^2.2.6, classnames@^2.3.2:
+classnames@*, classnames@^2.2.6, classnames@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
   integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
