@@ -6,7 +6,6 @@ module Samurai
 
     def set_global
       gon.environment = Rails.env
-      response.headers["Cache-Control"] = "no-cache, no-store"
     end
   end
 end
