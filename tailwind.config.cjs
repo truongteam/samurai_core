@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './app/views/**/*.{html,html.erb,erb}',
     './app/views/devise/**/*.{html,html.erb,erb}',
@@ -12,6 +13,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('rippleui')
   ]
 }

@@ -1,6 +1,8 @@
 module Samurai
-    class DashboardController < ApplicationController
-        def index
-        end
+  class DashboardController < AuthenticatedController
+    layout "layouts/samurai/dashboard"
+
+    def index
     end
+  end
 end

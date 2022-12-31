@@ -1,35 +1,9 @@
 <!DOCTYPE html>
-<html class="h-full bg-gray-200" lang="en">
+<html class="h-full lang="en">
 <head>
-  <title>Core</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
-  <%= vite_client_tag %>
-  <%= include_gon %>
-  <%= raw typescript_tag('layout') %>
-  <script>
-    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-    } else {
-        document.documentElement.classList.remove('dark')
-    }
-</script>
+  <%= render 'layouts/samurai/header' %>
 </head>
-<body class="font-sans leading-none text-gray-800 antialiased">
-<div class="flex flex-col h-screen justify-between">
-<div class="h-10 mb-10">
-<%= render 'layouts/samurai/menu' %>
-</div>
-<div class="mb-auto h-10">
-<div class="container mx-auto">
-<%= yield %>
-<%= yield(:header) %>
-</div>
-</div>
-<div class="h-10">
-<%= render 'layouts/samurai/footer' %>
-</div>
-
+<body>
+<%= content_for?(:content) ? yield(:content) : yield %>
 </body>
 </html>

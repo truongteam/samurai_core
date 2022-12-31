@@ -1,0 +1,15 @@
+<%= content_for :content do %>
+    <%= render partial: 'layouts/samurai/dashboard/navbar' %>
+        <div class="flex overflow-hidden bg-white pt-16">
+
+        <%= render partial: 'layouts/samurai/dashboard/sidebar' %>
+        
+        <div id="main-content" class="h-full w-full bg-gray-50 relative overflow-y-auto lg:ml-64">
+            <main>
+            <%= yield %>
+            </main>
+            <%= render 'layouts/samurai/dashboard/footer' %>
+        </div>
+    </div>
+<% end %>
+<%= render template: "layouts/samurai/application" %>

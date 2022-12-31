@@ -1,4 +1,6 @@
-require 'vite_ruby'
+require "vite_ruby"
+require "devise"
+require "stimulus_reflex"
 
 module Samurai
   module Core
@@ -10,18 +12,25 @@ module Samurai
         @vite_ruby ||= ::ViteRuby.new(root: root)
       end
 
-      urls = ["/#{ vite_ruby.config.public_output_dir }"]
       config.app_middleware.use(Rack::Static,
-        urls: urls,
-        root: root.join(vite_ruby.config.public_dir))
+                                urls: [
+                                  "/#{vite_ruby.config.public_output_dir}",
+                                ],
+                                root: root.join(vite_ruby.config.public_dir))
 
-      initializer 'vite_rails_engine.proxy' do |app|
+      config.app_middleware.insert_before(
+        ::ActionDispatch::Static,
+        ::ActionDispatch::Static,
+        "#{root}/public"
+      )
+
+      initializer "vite_rails_engine.proxy" do |app|
         if vite_ruby.run_proxy?
           app.middleware.insert_before 0, ::ViteRuby::DevServerProxy, ssl_verify_none: true, vite_ruby: vite_ruby
         end
       end
 
-      initializer 'vite_rails_engine.logger' do
+      initializer "vite_rails_engine.logger" do
         config.after_initialize do
           vite_ruby.logger = Rails.logger
         end
@@ -35,10 +44,10 @@ module Samurai
         end
       end
       config.samurai_core = ActiveSupport::OrderedOptions.new
-      initializer 'samurai_core.configuration' do |app|
-        app.config.samurai_core[:mounted_path] ||= '/'
+      initializer "samurai_core.configuration" do |app|
+        app.config.samurai_core[:mounted_path] ||= "/"
         app.routes.append do
-          mount Samurai::Core::Engine => app.config.samurai_core[:mounted_path], as: 'samurai'
+          mount Samurai::Core::Engine => app.config.samurai_core[:mounted_path], as: "samurai"
         end
       end
     end

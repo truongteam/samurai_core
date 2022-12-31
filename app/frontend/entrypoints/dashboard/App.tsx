@@ -211,7 +211,7 @@ function App(props) {
           >
             <img
               className="w-10 h-10 rounded-full"
-              src="/docs/images/people/profile-picture-3.jpg"
+              src="/images/profile-picture-1.jpg"
               alt="Jese image"
             />
             <div className="pl-3">
@@ -257,7 +257,7 @@ function App(props) {
           >
             <img
               className="w-10 h-10 rounded-full"
-              src="/docs/images/people/profile-picture-2.jpg"
+              src="/images/profile-picture-1.jpg"
               alt="Jese image"
             />
             <div className="pl-3">
@@ -303,7 +303,7 @@ function App(props) {
           >
             <img
               className="w-10 h-10 rounded-full"
-              src="/docs/images/people/profile-picture-5.jpg"
+              src="/images/profile-picture-1.jpg"
               alt="Jese image"
             />
             <div className="pl-3">
@@ -349,7 +349,7 @@ function App(props) {
           >
             <img
               className="w-10 h-10 rounded-full"
-              src="/docs/images/people/profile-picture-4.jpg"
+              src="/images/profile-picture-1.jpg"
               alt="Jese image"
             />
             <div className="pl-3">

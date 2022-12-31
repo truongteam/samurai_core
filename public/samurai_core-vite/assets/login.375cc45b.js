@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime.f2130633.js";import{u as e}from"./react-pluggable.772a98d2.js";import"./index.57fae3ab.js";import"./_commonjsHelpers.042e6b4d.js";const i=()=>{const o=e();return t.jsxs(t.Fragment,{children:[t.jsx("h1",{children:"Working"}),t.jsx("div",{"data-controller":"content-loader","data-content-loader-url-value":"/messages.html"}),t.jsx("button",{onClick:()=>{o.executeFunction("ShowAlert.doIt")},children:"Show Alert"})]})};export{i as default};
+//# sourceMappingURL=login.375cc45b.js.map

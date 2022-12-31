@@ -1,6 +1,9 @@
 module Samurai
-    class PublicController < ApplicationController
-        def contact
-        end
+  class PublicController < ApplicationController
+    def signup
     end
+
+    def login
+    end
+  end
 end

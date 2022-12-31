@@ -1,0 +1,2 @@
+import{R as t}from"./index.57fae3ab.js";import{a as e}from"./client.8cac2843.js";import{A as r}from"./App.029ace82.js";import"./_commonjsHelpers.042e6b4d.js";import"./___vite-browser-external_commonjs-proxy.1df758e1.js";import"./toPropertyKey.cf64b126.js";e.createRoot(document.getElementById("root")).render(t.createElement(t.StrictMode,null,t.createElement(r,null)));
+//# sourceMappingURL=mount.df05e6a3.js.map

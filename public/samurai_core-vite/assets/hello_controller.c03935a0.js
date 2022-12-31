@@ -1,0 +1,2 @@
+var s=Object.defineProperty;var a=(o,e,t)=>e in o?s(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t;var l=(o,e,t)=>(a(o,typeof e!="symbol"?e+"":e,t),t);import{C as r}from"./stimulus.babce4aa.js";class n extends r{connect(){console.log("Hello, Stimulus!")}greet(){const t=this.nameTarget.value;console.log(`Hello, ${t}!`)}}l(n,"targets",["name"]);const m=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"}));export{m as _};
+//# sourceMappingURL=hello_controller.c03935a0.js.map

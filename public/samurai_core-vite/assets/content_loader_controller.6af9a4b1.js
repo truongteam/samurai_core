@@ -1,0 +1,2 @@
+var r=Object.defineProperty;var a=(t,e,l)=>e in t?r(t,e,{enumerable:!0,configurable:!0,writable:!0,value:l}):t[e]=l;var o=(t,e,l)=>(a(t,typeof e!="symbol"?e+"":e,l),l);import{C as s}from"./stimulus.babce4aa.js";class n extends s{connect(){this.load()}load(){fetch(this.urlValue).then(e=>e.text()).then(e=>this.element.innerHTML=e)}}o(n,"values",{url:String});const c=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"}));export{c as _};
+//# sourceMappingURL=content_loader_controller.6af9a4b1.js.map

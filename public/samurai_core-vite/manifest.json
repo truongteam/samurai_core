@@ -1,88 +1,391 @@
 {
   "entrypoints/layout/main.css": {
-    "file": "assets/layout.6e63e17b.css",
+    "file": "assets/main.0e8f3a2d.css",
     "src": "entrypoints/layout/main.css",
     "isEntry": true
   },
-  "entrypoints/dummy/App.tsx": {
-    "file": "assets/App.47d1f3cf.js",
-    "src": "entrypoints/dummy/App.tsx",
-    "isEntry": true,
+  "entrypoints/layout.css": {
+    "file": "assets/layout.9be26daf.css",
+    "src": "entrypoints/layout.css"
+  },
+  "_consumer.1f985106.js": {
+    "file": "assets/consumer.1f985106.js",
     "imports": [
-      "_scheduler.cb961abc.js"
+      "_actioncable.974013a5.js"
     ]
   },
-  "entrypoints/dummy/mount.jsx": {
-    "file": "assets/mount.3faef631.js",
-    "src": "entrypoints/dummy/mount.jsx",
+  "entrypoints/dashboard/mount.jsx": {
+    "file": "assets/mount.b56d109e.js",
+    "src": "entrypoints/dashboard/mount.jsx",
     "isEntry": true,
     "imports": [
-      "_react.435e6ff6.js",
-      "entrypoints/dummy/App.tsx",
-      "_scheduler.cb961abc.js"
+      "_index.57fae3ab.js",
+      "_client.8cac2843.js",
+      "_global.4c9502f9.js",
+      "entrypoints/dashboard/App.tsx",
+      "_consumer.1f985106.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "_jsx-runtime.f2130633.js",
+      "_actioncable.974013a5.js"
     ]
   },
-  "entrypoints/dummy.ts": {
-    "file": "assets/dummy.18b452b9.js",
-    "src": "entrypoints/dummy.ts",
+  "_global.4c9502f9.js": {
+    "file": "assets/global.4c9502f9.js"
+  },
+  "entrypoints/dashboard/App.tsx": {
+    "file": "assets/App.7bc63417.js",
+    "src": "entrypoints/dashboard/App.tsx",
     "isEntry": true,
     "imports": [
-      "entrypoints/dummy/mount.jsx",
-      "_react.435e6ff6.js",
-      "_scheduler.cb961abc.js",
-      "entrypoints/dummy/App.tsx"
+      "_jsx-runtime.f2130633.js",
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "_index.57fae3ab.js": {
+    "file": "assets/index.57fae3ab.js",
+    "imports": [
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "entrypoints/dashboard/content_loader_controller.js": {
+    "file": "assets/content_loader_controller.6af9a4b1.js",
+    "src": "entrypoints/dashboard/content_loader_controller.js",
+    "isEntry": true,
+    "imports": [
+      "_stimulus.babce4aa.js"
     ]
   },
   "entrypoints/dashboard.ts": {
-    "file": "assets/dashboard.7ec8b0c8.js",
+    "file": "assets/dashboard.a51e8f01.js",
     "src": "entrypoints/dashboard.ts",
     "isEntry": true,
     "imports": [
       "entrypoints/dashboard/mount.jsx",
-      "_react.435e6ff6.js",
-      "_scheduler.cb961abc.js",
-      "entrypoints/dashboard/App.tsx"
-    ]
-  },
-  "_react.435e6ff6.js": {
-    "file": "assets/react.435e6ff6.js",
-    "imports": [
-      "_scheduler.cb961abc.js"
-    ]
-  },
-  "entrypoints/dashboard/mount.jsx": {
-    "file": "assets/mount.478532c1.js",
-    "src": "entrypoints/dashboard/mount.jsx",
-    "isEntry": true,
-    "imports": [
-      "_react.435e6ff6.js",
+      "entrypoints/dashboard/controllers.js",
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "_client.8cac2843.js",
+      "_global.4c9502f9.js",
       "entrypoints/dashboard/App.tsx",
-      "_scheduler.cb961abc.js"
+      "_jsx-runtime.f2130633.js",
+      "_consumer.1f985106.js",
+      "_actioncable.974013a5.js",
+      "entrypoints/dashboard/counter_controller.js",
+      "_stimulus.babce4aa.js",
+      "_index.d19ec188.js",
+      "entrypoints/dashboard/content_loader_controller.js",
+      "entrypoints/dashboard/slideshow_controller.js",
+      "entrypoints/users/hello_controller.js"
     ]
   },
-  "entrypoints/dashboard/App.tsx": {
-    "file": "assets/App.408be58d.js",
-    "src": "entrypoints/dashboard/App.tsx",
+  "entrypoints/dashboard/controllers.js": {
+    "file": "assets/controllers.ba17749b.js",
+    "src": "entrypoints/dashboard/controllers.js",
     "isEntry": true,
     "imports": [
-      "_react.435e6ff6.js",
-      "_scheduler.cb961abc.js"
+      "entrypoints/dashboard/counter_controller.js",
+      "_index.d19ec188.js",
+      "entrypoints/dashboard/content_loader_controller.js",
+      "entrypoints/dashboard/slideshow_controller.js",
+      "entrypoints/users/hello_controller.js",
+      "_stimulus.babce4aa.js",
+      "_consumer.1f985106.js",
+      "_actioncable.974013a5.js"
     ]
   },
-  "_scheduler.cb961abc.js": {
-    "file": "assets/scheduler.cb961abc.js"
+  "_index.d19ec188.js": {
+    "file": "assets/index.d19ec188.js",
+    "imports": [
+      "entrypoints/dashboard/counter_controller.js"
+    ]
+  },
+  "entrypoints/dashboard/slideshow_controller.js": {
+    "file": "assets/slideshow_controller.d8ce1d29.js",
+    "src": "entrypoints/dashboard/slideshow_controller.js",
+    "isEntry": true,
+    "imports": [
+      "_stimulus.babce4aa.js"
+    ]
+  },
+  "entrypoints/users/hello_controller.js": {
+    "file": "assets/hello_controller.c03935a0.js",
+    "src": "entrypoints/users/hello_controller.js",
+    "isEntry": true,
+    "imports": [
+      "_stimulus.babce4aa.js"
+    ]
+  },
+  "__commonjsHelpers.042e6b4d.js": {
+    "file": "assets/_commonjsHelpers.042e6b4d.js"
+  },
+  "_jsx-runtime.f2130633.js": {
+    "file": "assets/jsx-runtime.f2130633.js",
+    "imports": [
+      "_index.57fae3ab.js"
+    ]
+  },
+  "_toPropertyKey.cf64b126.js": {
+    "file": "assets/toPropertyKey.cf64b126.js"
+  },
+  "____vite-browser-external_commonjs-proxy.1df758e1.js": {
+    "file": "assets/___vite-browser-external_commonjs-proxy.1df758e1.js",
+    "imports": [
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "entrypoints/layout/sidebar.js": {
+    "file": "assets/sidebar.88630f76.js",
+    "src": "entrypoints/layout/sidebar.js",
+    "isEntry": true
+  },
+  "entrypoints/dummy.ts": {
+    "file": "assets/dummy.6f3793ce.js",
+    "src": "entrypoints/dummy.ts",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/dummy/mount.jsx",
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "_client.8cac2843.js",
+      "entrypoints/dummy/App.jsx",
+      "____vite-browser-external_commonjs-proxy.1df758e1.js",
+      "_toPropertyKey.cf64b126.js"
+    ]
+  },
+  "entrypoints/dummy/mount.jsx": {
+    "file": "assets/mount.df05e6a3.js",
+    "src": "entrypoints/dummy/mount.jsx",
+    "isEntry": true,
+    "imports": [
+      "_index.57fae3ab.js",
+      "_client.8cac2843.js",
+      "entrypoints/dummy/App.jsx",
+      "__commonjsHelpers.042e6b4d.js",
+      "____vite-browser-external_commonjs-proxy.1df758e1.js",
+      "_toPropertyKey.cf64b126.js"
+    ]
+  },
+  "entrypoints/users.ts": {
+    "file": "assets/users.daae40e7.js",
+    "src": "entrypoints/users.ts",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/users/app.ts",
+      "entrypoints/users/controllers.js",
+      "entrypoints/users/store.ts",
+      "entrypoints/users/reducers/books.ts",
+      "_redux.3c9f6592.js",
+      "_toPropertyKey.cf64b126.js",
+      "_redux-rails.8c6b1694.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "_index.57fae3ab.js",
+      "_client.8cac2843.js",
+      "_react-pluggable.772a98d2.js",
+      "entrypoints/users/plugin.tsx",
+      "entrypoints/dashboard/counter_controller.js",
+      "_stimulus.babce4aa.js",
+      "_actioncable.974013a5.js",
+      "_index.d19ec188.js",
+      "entrypoints/dashboard/content_loader_controller.js",
+      "entrypoints/dashboard/slideshow_controller.js",
+      "entrypoints/users/hello_controller.js",
+      "_consumer.1f985106.js"
+    ]
+  },
+  "entrypoints/layout/darkmode.js": {
+    "file": "assets/darkmode.7552c459.js",
+    "src": "entrypoints/layout/darkmode.js",
+    "isEntry": true
+  },
+  "_actioncable.974013a5.js": {
+    "file": "assets/actioncable.974013a5.js"
+  },
+  "entrypoints/dashboard/counter_controller.js": {
+    "file": "assets/counter_controller.63d14a4d.js",
+    "src": "entrypoints/dashboard/counter_controller.js",
+    "isEntry": true,
+    "imports": [
+      "_stimulus.babce4aa.js",
+      "_actioncable.974013a5.js"
+    ]
+  },
+  "entrypoints/users/store.ts": {
+    "file": "assets/store.0d5fec67.js",
+    "src": "entrypoints/users/store.ts",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/users/reducers/books.ts",
+      "_redux-rails.8c6b1694.js",
+      "_redux.3c9f6592.js",
+      "_toPropertyKey.cf64b126.js",
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "entrypoints/users/plugin.tsx": {
+    "file": "assets/plugin.693b6734.js",
+    "src": "entrypoints/users/plugin.tsx",
+    "isEntry": true
+  },
+  "_stimulus.babce4aa.js": {
+    "file": "assets/stimulus.babce4aa.js"
+  },
+  "entrypoints/users/app.ts": {
+    "file": "assets/app.3eeb2421.js",
+    "src": "entrypoints/users/app.ts",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/users/store.ts",
+      "__commonjsHelpers.042e6b4d.js",
+      "_index.57fae3ab.js",
+      "_client.8cac2843.js",
+      "_react-pluggable.772a98d2.js",
+      "entrypoints/users/plugin.tsx",
+      "entrypoints/users/reducers/books.ts",
+      "_redux.3c9f6592.js",
+      "_toPropertyKey.cf64b126.js",
+      "_redux-rails.8c6b1694.js"
+    ],
+    "dynamicImports": [
+      "entrypoints/users/login.tsx"
+    ]
+  },
+  "entrypoints/users/reducers/books.ts": {
+    "file": "assets/books.4da96270.js",
+    "src": "entrypoints/users/reducers/books.ts",
+    "isEntry": true,
+    "imports": [
+      "_redux.3c9f6592.js",
+      "_toPropertyKey.cf64b126.js"
+    ]
+  },
+  "_redux-rails.8c6b1694.js": {
+    "file": "assets/redux-rails.8c6b1694.js",
+    "imports": [
+      "__commonjsHelpers.042e6b4d.js",
+      "_redux.3c9f6592.js"
+    ]
+  },
+  "entrypoints/users/controllers.js": {
+    "file": "assets/controllers.3c75c1f5.js",
+    "src": "entrypoints/users/controllers.js",
+    "isEntry": true,
+    "imports": [
+      "entrypoints/dashboard/counter_controller.js",
+      "_index.d19ec188.js",
+      "entrypoints/dashboard/content_loader_controller.js",
+      "entrypoints/dashboard/slideshow_controller.js",
+      "entrypoints/users/hello_controller.js",
+      "_consumer.1f985106.js",
+      "_stimulus.babce4aa.js",
+      "_actioncable.974013a5.js"
+    ]
+  },
+  "entrypoints/users/login.tsx": {
+    "file": "assets/login.375cc45b.js",
+    "src": "entrypoints/users/login.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime.f2130633.js",
+      "_react-pluggable.772a98d2.js",
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "_redux.3c9f6592.js": {
+    "file": "assets/redux.3c9f6592.js",
+    "imports": [
+      "_toPropertyKey.cf64b126.js"
+    ]
+  },
+  "_client.8cac2843.js": {
+    "file": "assets/client.8cac2843.js",
+    "imports": [
+      "__commonjsHelpers.042e6b4d.js",
+      "_index.57fae3ab.js"
+    ]
+  },
+  "_react-pluggable.772a98d2.js": {
+    "file": "assets/react-pluggable.772a98d2.js",
+    "imports": [
+      "_index.57fae3ab.js"
+    ]
+  },
+  "entrypoints/dashboard/components/Sample.tsx": {
+    "file": "assets/Sample.f726b4f9.js",
+    "src": "entrypoints/dashboard/components/Sample.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.f2130633.js",
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "entrypoints/users/middlewares/rails.ts": {
+    "file": "assets/rails.81a7405a.js",
+    "src": "entrypoints/users/middlewares/rails.ts",
+    "isEntry": true,
+    "imports": [
+      "_redux-rails.8c6b1694.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "_redux.3c9f6592.js",
+      "_toPropertyKey.cf64b126.js"
+    ]
+  },
+  "entrypoints/users/middlewares/cable.ts": {
+    "file": "assets/cable.b439d62f.js",
+    "src": "entrypoints/users/middlewares/cable.ts",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.042e6b4d.js",
+      "_global.4c9502f9.js"
+    ]
   },
   "entrypoints/layout.ts": {
-    "file": "assets/layout.e5dd557e.js",
+    "file": "assets/layout.6a729397.js",
     "src": "entrypoints/layout.ts",
     "isEntry": true,
+    "imports": [
+      "entrypoints/layout/sidebar.js",
+      "entrypoints/layout/darkmode.js"
+    ],
     "css": [
-      "assets/layout.6e63e17b.css"
+      "assets/layout.9be26daf.css",
+      "assets/main.0e8f3a2d.css"
     ]
   },
-  "entrypoints/layout.css": {
-    "file": "assets/layout.6e63e17b.css",
-    "src": "entrypoints/layout/main.css",
-    "isEntry": true
+  "entrypoints/dashboard/components/MyChart.jsx": {
+    "file": "assets/MyChart.3d85dc84.js",
+    "src": "entrypoints/dashboard/components/MyChart.jsx",
+    "isEntry": true,
+    "imports": [
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js"
+    ]
+  },
+  "entrypoints/dashboard/components/__tests__/Sample.test.tsx": {
+    "file": "assets/Sample.64e9e68c.js",
+    "src": "entrypoints/dashboard/components/__tests__/Sample.test.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.f2130633.js",
+      "_index.57fae3ab.js",
+      "_client.8cac2843.js",
+      "____vite-browser-external_commonjs-proxy.1df758e1.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "entrypoints/dashboard/components/Sample.tsx"
+    ]
+  },
+  "entrypoints/dummy/App.jsx": {
+    "file": "assets/App.029ace82.js",
+    "src": "entrypoints/dummy/App.jsx",
+    "isEntry": true,
+    "imports": [
+      "_index.57fae3ab.js",
+      "__commonjsHelpers.042e6b4d.js",
+      "____vite-browser-external_commonjs-proxy.1df758e1.js",
+      "_toPropertyKey.cf64b126.js"
+    ]
   }
 }

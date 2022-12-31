@@ -1,0 +1,2 @@
+import{R as o}from"./index.57fae3ab.js";import{c as r}from"./client.8cac2843.js";import{g as t}from"./global.4c9502f9.js";import{A as e}from"./App.7bc63417.js";import{c as m}from"./consumer.1f985106.js";import"./_commonjsHelpers.042e6b4d.js";import"./jsx-runtime.f2130633.js";import"./actioncable.974013a5.js";r(document.getElementById("root")).render(o.createElement(o.StrictMode,null,o.createElement(e,{global:t,consumer:m})));
+//# sourceMappingURL=mount.b56d109e.js.map
